@@ -1,0 +1,14 @@
+{
+  "type": "fusion:connecting",
+  "parent": "minecraft:block/cube_column",
+  "connections": [
+    {
+      "type": "fusion:is_same_block"
+    }
+  ],
+  "loader": "fusion:model",
+  "textures": {
+    "end": "rechiseled_extras:block/laboratory/right_faced_arrows-top",
+    "side": "rechiseled_extras:block/laboratory/right_faced_arrows"
+  }
+}

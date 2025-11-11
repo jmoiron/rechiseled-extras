@@ -1,0 +1,103 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "rechiseled_extras:voidstone_raw"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_medium_tiles"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_panel"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_skulls"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_rune"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_eye"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_primal_raw"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_primal_medium_tiles"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_primal_panel"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_primal_skulls"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_primal_rune"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_primal_eye"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_runed_black"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_runed_red"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_runed_green"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_runed_brown"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_runed_blue"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_runed_purple"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_runed_cyan"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_runed_lightgray"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_runed_gray"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_runed_pink"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_runed_lime"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_runed_yellow"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_runed_lightblue"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_runed_magenta"
+    },
+    {
+      "item": "rechiseled_extras:voidstone_runed_orange"
+    },
+    {
+      "connecting_item": "rechiseled_extras:voidstone_dent_connecting",
+      "item": "rechiseled_extras:voidstone_dent"
+    },
+    {
+      "connecting_item": "rechiseled_extras:voidstone_metallic_connecting",
+      "item": "rechiseled_extras:voidstone_metallic"
+    },
+    {
+      "connecting_item": "rechiseled_extras:voidstone_primal_dent_connecting",
+      "item": "rechiseled_extras:voidstone_primal_dent"
+    },
+    {
+      "connecting_item": "rechiseled_extras:voidstone_primal_metallic_connecting",
+      "item": "rechiseled_extras:voidstone_primal_metallic"
+    }
+  ],
+  "overwrite": false
+}

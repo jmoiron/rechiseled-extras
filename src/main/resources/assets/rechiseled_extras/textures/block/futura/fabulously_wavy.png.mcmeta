@@ -1,0 +1,9 @@
+{
+  "animation": {
+    "interpolate": true
+  },
+  "fusion": {
+    "type": "connecting",
+    "layout": "compact"
+  }
+}

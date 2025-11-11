@@ -1,0 +1,55 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "rechiseled_extras:tyrian_disordered_metal_bits"
+    },
+    {
+      "item": "rechiseled_extras:tyrian_metal_plates"
+    },
+    {
+      "item": "rechiseled_extras:tyrian_disordered_purple_bits"
+    },
+    {
+      "item": "rechiseled_extras:tyrian_purple_plates"
+    },
+    {
+      "item": "rechiseled_extras:tyrian_rust"
+    },
+    {
+      "item": "rechiseled_extras:tyrian_shiny_plates"
+    },
+    {
+      "item": "rechiseled_extras:tyrian_routes"
+    },
+    {
+      "item": "rechiseled_extras:tyrian_platform"
+    },
+    {
+      "item": "rechiseled_extras:tyrian_small_uneven_tiles"
+    },
+    {
+      "item": "rechiseled_extras:tyrian_diagonal_plates"
+    },
+    {
+      "item": "rechiseled_extras:tyrian_dent"
+    },
+    {
+      "item": "rechiseled_extras:tyrian_blue_plates"
+    },
+    {
+      "item": "rechiseled_extras:tyrian_black_scaled_plates"
+    },
+    {
+      "item": "rechiseled_extras:tyrian_black_strips"
+    },
+    {
+      "item": "rechiseled_extras:tyrian_opening"
+    },
+    {
+      "connecting_item": "rechiseled_extras:tyrian_shiny_plate_connecting",
+      "item": "rechiseled_extras:tyrian_shiny_plate"
+    }
+  ],
+  "overwrite": false
+}

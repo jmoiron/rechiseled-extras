@@ -1,0 +1,70 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "rechiseled_extras:laboratory_checkered_tiles"
+    },
+    {
+      "item": "rechiseled_extras:laboratory_dark_medium_tiles"
+    },
+    {
+      "item": "rechiseled_extras:laboratory_large_tiles"
+    },
+    {
+      "item": "rechiseled_extras:laboratory_medium_tiles"
+    },
+    {
+      "connecting_item": "rechiseled_extras:laboratory_screen_connecting",
+      "item": "rechiseled_extras:laboratory_screen"
+    },
+    {
+      "connecting_item": "rechiseled_extras:laboratory_fuzzy_screen_connecting",
+      "item": "rechiseled_extras:laboratory_fuzzy_screen"
+    },
+    {
+      "item": "rechiseled_extras:laboratory_large_steel"
+    },
+    {
+      "item": "rechiseled_extras:laboratory_small_steel"
+    },
+    {
+      "connecting_item": "rechiseled_extras:laboratory_tile_connecting",
+      "item": "rechiseled_extras:laboratory_tile"
+    },
+    {
+      "connecting_item": "rechiseled_extras:laboratory_roundel_connecting",
+      "item": "rechiseled_extras:laboratory_roundel"
+    },
+    {
+      "connecting_item": "rechiseled_extras:laboratory_left_faced_arrows_connecting",
+      "item": "rechiseled_extras:laboratory_left_faced_arrows"
+    },
+    {
+      "connecting_item": "rechiseled_extras:laboratory_right_faced_arrows_connecting",
+      "item": "rechiseled_extras:laboratory_right_faced_arrows"
+    },
+    {
+      "connecting_item": "rechiseled_extras:laboratory_dotted_panel_connecting",
+      "item": "rechiseled_extras:laboratory_dotted_panel"
+    },
+    {
+      "item": "rechiseled_extras:laboratory_dotted_panel_wall_connecting"
+    },
+    {
+      "connecting_item": "rechiseled_extras:laboratory_console_connecting",
+      "item": "rechiseled_extras:laboratory_console"
+    },
+    {
+      "connecting_item": "rechiseled_extras:laboratory_white_panel_connecting",
+      "item": "rechiseled_extras:laboratory_white_panel"
+    },
+    {
+      "item": "rechiseled_extras:laboratory_white_panel_wall_connecting"
+    },
+    {
+      "connecting_item": "rechiseled_extras:laboratory_vents_connecting",
+      "item": "rechiseled_extras:laboratory_vents"
+    }
+  ],
+  "overwrite": false
+}

@@ -1,0 +1,85 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "rechiseled_extras:factory_plating"
+    },
+    {
+      "connecting_item": "rechiseled_extras:factory_circuit_connecting",
+      "item": "rechiseled_extras:factory_circuit"
+    },
+    {
+      "connecting_item": "rechiseled_extras:factory_dots_connecting",
+      "item": "rechiseled_extras:factory_dots"
+    },
+    {
+      "connecting_item": "rechiseled_extras:factory_frameblue_connecting",
+      "item": "rechiseled_extras:factory_frameblue"
+    },
+    {
+      "connecting_item": "rechiseled_extras:factory_goldplate_connecting",
+      "item": "rechiseled_extras:factory_goldplate"
+    },
+    {
+      "connecting_item": "rechiseled_extras:factory_goldplating_connecting",
+      "item": "rechiseled_extras:factory_goldplating"
+    },
+    {
+      "connecting_item": "rechiseled_extras:factory_grinder_connecting",
+      "item": "rechiseled_extras:factory_grinder"
+    },
+    {
+      "connecting_item": "rechiseled_extras:factory_hazard_connecting",
+      "item": "rechiseled_extras:factory_hazard"
+    },
+    {
+      "connecting_item": "rechiseled_extras:factory_hazardorange_connecting",
+      "item": "rechiseled_extras:factory_hazardorange"
+    },
+    {
+      "connecting_item": "rechiseled_extras:factory_iceiceice_connecting",
+      "item": "rechiseled_extras:factory_iceiceice"
+    },
+    {
+      "connecting_item": "rechiseled_extras:factory_platex_connecting",
+      "item": "rechiseled_extras:factory_platex"
+    },
+    {
+      "connecting_item": "rechiseled_extras:factory_rust_connecting",
+      "item": "rechiseled_extras:factory_rust"
+    },
+    {
+      "connecting_item": "rechiseled_extras:factory_rust2_connecting",
+      "item": "rechiseled_extras:factory_rust2"
+    },
+    {
+      "connecting_item": "rechiseled_extras:factory_rustplates_connecting",
+      "item": "rechiseled_extras:factory_rustplates"
+    },
+    {
+      "connecting_item": "rechiseled_extras:factory_tilemosaic_connecting",
+      "item": "rechiseled_extras:factory_tilemosaic"
+    },
+    {
+      "connecting_item": "rechiseled_extras:factory_wireframe_connecting",
+      "item": "rechiseled_extras:factory_wireframe"
+    },
+    {
+      "connecting_item": "rechiseled_extras:factory_wireframeblue_connecting",
+      "item": "rechiseled_extras:factory_wireframeblue"
+    },
+    {
+      "connecting_item": "rechiseled_extras:factory_wireframewhite_connecting",
+      "item": "rechiseled_extras:factory_wireframewhite"
+    },
+    {
+      "connecting_item": "rechiseled_extras:factory_column_connecting",
+      "item": "rechiseled_extras:factory_column"
+    },
+    {
+      "connecting_item": "rechiseled_extras:factory_vent_connecting",
+      "item": "rechiseled_extras:factory_vent"
+    }
+  ],
+  "overwrite": false
+}

@@ -1,0 +1,36 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "rechiseled_extras:valentines_pink_marker"
+    },
+    {
+      "item": "rechiseled_extras:valentines_gray_rocky"
+    },
+    {
+      "item": "rechiseled_extras:valentines_pink_heart"
+    },
+    {
+      "item": "rechiseled_extras:valentines_pink_rocky"
+    },
+    {
+      "item": "rechiseled_extras:valentines_pink_tile"
+    },
+    {
+      "item": "rechiseled_extras:valentines_pink_cracks"
+    },
+    {
+      "item": "rechiseled_extras:valentines_pink_studded"
+    },
+    {
+      "item": "rechiseled_extras:valentines_flame"
+    },
+    {
+      "item": "rechiseled_extras:valentines_pink_steel"
+    },
+    {
+      "item": "rechiseled_extras:valentines_companion"
+    }
+  ],
+  "overwrite": false
+}

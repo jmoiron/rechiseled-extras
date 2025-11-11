@@ -1,0 +1,29 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "connecting_item": "rechiseled_extras:futura_controller_connecting",
+      "item": "rechiseled_extras:futura_controller"
+    },
+    {
+      "connecting_item": "rechiseled_extras:futura_controller_purple_connecting",
+      "item": "rechiseled_extras:futura_controller_purple"
+    },
+    {
+      "connecting_item": "rechiseled_extras:futura_screen_cyan_connecting",
+      "item": "rechiseled_extras:futura_screen_cyan"
+    },
+    {
+      "connecting_item": "rechiseled_extras:futura_screen_gray_connecting",
+      "item": "rechiseled_extras:futura_screen_gray"
+    },
+    {
+      "item": "rechiseled_extras:futura_rainbowliciously_wavy"
+    },
+    {
+      "connecting_item": "rechiseled_extras:futura_fabulously_wavy_connecting",
+      "item": "rechiseled_extras:futura_fabulously_wavy"
+    }
+  ],
+  "overwrite": false
+}

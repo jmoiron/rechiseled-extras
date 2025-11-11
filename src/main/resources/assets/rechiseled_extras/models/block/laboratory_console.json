@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "rechiseled_extras:block/laboratory/console-top",
+    "side": "rechiseled_extras:block/laboratory/console-side"
+  }
+}
