@@ -36,4 +36,4 @@ modId="fusion"
 mandatory=true
 versionRange="[1.1.0,)"
 ordering="NONE"
-side="BOTH"
+side="CLIENT"
