@@ -50,6 +50,10 @@ minecraft {
             workingDirectory project.file('run')
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
+            
+            // Disable problematic mixin for data generation
+            jvmArgs '-Dmixin.config.refmap.allowEmpty=true'
+            jvmArgs '-Dmixin.env.disableRefMap=true'
 
             args '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 

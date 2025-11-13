@@ -15,27 +15,30 @@ There are so many factory blocks, and we're missing a large number of them becau
 
 The ordering is:
 
-- dotted rusty plate
-- rusty plate
-- very rusty plate
-- slightly rusty plate
-- wireframe
-- purple wireframe
-- yellow/black caution stripes
-- orange/white caution stripes
+- dots -> dotted rusty plate
+- rust 2 -> rusty plate
+- rust -> very rusty plate
+- plate X -> slightly rusty plate
+- white wireframe -> wireframe
+- wireframe -> purple wireframe
+- hazard -> yellow-black caution stripes
+- orange hazard -> orange-white caution stripes
 - circuit
-- metal box
-- gold-plated circuit
-- gold-framed purple plates
+- metal box (missing)
+- gold plate -> gold-plated circuit
+- gold plating -> gold-framed purple plates
 - grinder
-- old vents
-- segmented rusty plates
-- metal column
-- blue-framed circuit
-- ice ice ice
-- blue circuits
-- vents
+- plating -> old vents
+- rust plates -> segmented rusty plates
+- column -> metal column
+- blue frame -> blue-framed circuit
+- ice -> ice ice ice
+- tile mosaic -> blue circuits
+- vent -> vents
 - blue wireframe
+
+(all of the blocks from here out are missing)
+
 - rusty scaffold
 - caution framed plates
 - an old relic (this name is longer but lets call it an old relic)
@@ -66,5 +69,9 @@ The ordering is:
 - engineer's pipes
 - large rusty scaffold
 - pipes
+
+Bugs:
+
+* vent has a "top" and is supposed to tile both horizontally and vertically.. we should ship horizontal and then perhaps fix it with one of the more complicated layouts later
 
 We should examine the chisel code to find what textures correspond to what blocks so that we can get our naming and ordering consistent.

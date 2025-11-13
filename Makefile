@@ -24,7 +24,7 @@ endif
 
 
 GRADLEW ?= ./gradlew
-MODS_DIR ?= ${INSTALLPATH}/minecraft/mods
+MODS_DIR ?= ${INSTALLPATH}/mods
 
 # Default target runs the Gradle build
 all: build
