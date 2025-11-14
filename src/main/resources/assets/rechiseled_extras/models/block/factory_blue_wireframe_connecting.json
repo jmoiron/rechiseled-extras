@@ -8,6 +8,6 @@
   ],
   "loader": "fusion:model",
   "textures": {
-    "all": "rechiseled_extras:block/factory/wireframeblue"
+    "all": "rechiseled_extras:block/factory/blue_wireframe"
   }
 }

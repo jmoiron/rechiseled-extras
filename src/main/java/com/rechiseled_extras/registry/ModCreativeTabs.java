@@ -169,8 +169,8 @@ public class ModCreativeTabs {
                         output.accept(ModItems.FACTORY_TILEMOSAIC_CONNECTING.get());
                         output.accept(ModItems.FACTORY_VENT.get());
                         output.accept(ModItems.FACTORY_VENT_CONNECTING.get());
-                        output.accept(ModItems.FACTORY_WIREFRAMEBLUE.get());
-                        output.accept(ModItems.FACTORY_WIREFRAMEBLUE_CONNECTING.get());
+                        output.accept(ModItems.FACTORY_BLUE_WIREFRAME.get());
+                        output.accept(ModItems.FACTORY_BLUE_WIREFRAME_CONNECTING.get());
 
                         // Futura blocks - non-connecting variants
                         output.accept(ModItems.FUTURA_SCREEN_GRAY.get());

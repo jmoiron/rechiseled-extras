@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "rechiseled_extras:block/factory_wireframewhite"
+      "model": "rechiseled_extras:block/factory_wireframe"
     }
   }
 }

@@ -65,8 +65,8 @@
       "item": "rechiseled_extras:factory_wireframe"
     },
     {
-      "connecting_item": "rechiseled_extras:factory_wireframeblue_connecting",
-      "item": "rechiseled_extras:factory_wireframeblue"
+      "connecting_item": "rechiseled_extras:factory_blue_wireframe_connecting",
+      "item": "rechiseled_extras:factory_blue_wireframe"
     },
     {
       "connecting_item": "rechiseled_extras:factory_wireframewhite_connecting",

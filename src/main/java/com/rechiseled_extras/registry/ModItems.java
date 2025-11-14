@@ -437,9 +437,9 @@ public class ModItems {
                     .filter(e -> e.getId().getPath().equals("factory_vents_connecting"))
                     .findFirst().get().get(), new Item.Properties()));
 
-    public static final RegistryObject<Item> FACTORY_WIREFRAMEBLUE = ITEMS.register("factory_wireframeblue",
+    public static final RegistryObject<Item> FACTORY_BLUE_WIREFRAME = ITEMS.register("factory_blue_wireframe",
             () -> new BlockItem(ModBlocks.FACTORY_BLUE_WIREFRAME.get(), new Item.Properties()));
-    public static final RegistryObject<Item> FACTORY_WIREFRAMEBLUE_CONNECTING = ITEMS.register("factory_blue_wireframe_connecting",
+    public static final RegistryObject<Item> FACTORY_BLUE_WIREFRAME_CONNECTING = ITEMS.register("factory_blue_wireframe_connecting",
             () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
                     .filter(e -> e.getId().getPath().equals("factory_blue_wireframe_connecting"))
                     .findFirst().get().get(), new Item.Properties()));
