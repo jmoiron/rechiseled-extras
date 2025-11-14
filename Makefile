@@ -1,4 +1,4 @@
-.PHONY: all build clean runClient runServer runData install
+.PHONY: all build clean runClient runServer data install
 
 PACK_INSTANCE := quantum-skies-0.7.6
 PRISMLAUNCHER_INSTANCE := PrismLauncher/instances/${PACK_INSTANCE}/minecraft/
@@ -41,7 +41,7 @@ runClient:
 runServer:
 	$(GRADLEW) runServer
 
-runData:
+data:
 	$(GRADLEW) runData
 
 install: build
