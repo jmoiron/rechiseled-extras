@@ -186,6 +186,53 @@ public class ModCreativeTabs {
                         output.accept(ModItems.FUTURA_CONTROLLER_CONNECTING.get());
                         output.accept(ModItems.FUTURA_CONTROLLER_PURPLE_CONNECTING.get());
                         output.accept(ModItems.FUTURA_FABULOUSLY_WAVY_CONNECTING.get());
+
+                        // Technical (factory/technical) - simple static blocks
+                        output.accept(ModItems.TECHNICAL_INDUSTRIAL_RELIC.get());
+                        output.accept(ModItems.TECHNICAL_WIRES.get());
+                        output.accept(ModItems.TECHNICAL_OLD.get());
+                        output.accept(ModItems.TECHNICAL_MEGACELL.get());
+
+                        // Technical (factory/technical) - follow GAMEBUGS order (subset implemented)
+                        output.accept(ModItems.TECHNICAL_RUSTY_SCAFFOLD.get());
+                        output.accept(ModItems.TECHNICAL_RUSTY_SCAFFOLD_CONNECTING.get());
+                        output.accept(ModItems.TECHNICAL_CAUTION_FRAMED_PLATES.get());
+                        output.accept(ModItems.TECHNICAL_CAUTION_FRAMED_PLATES_CONNECTING.get());
+                        output.accept(ModItems.TECHNICAL_INDUSTRIAL_RELIC.get());
+                        output.accept(ModItems.TECHNICAL_LARGE_PIPES.get());
+                        output.accept(ModItems.TECHNICAL_LARGE_PIPES_CONNECTING.get());
+                        output.accept(ModItems.TECHNICAL_SMALL_PIPES.get());
+                        output.accept(ModItems.TECHNICAL_SMALL_PIPES_CONNECTING.get());
+                        output.accept(ModItems.TECHNICAL_FAN_FAST.get());
+                        output.accept(ModItems.TECHNICAL_FAN_STILL.get());
+                        output.accept(ModItems.TECHNICAL_VENT.get());
+                        output.accept(ModItems.TECHNICAL_VENT_CONNECTING.get());
+                        output.accept(ModItems.TECHNICAL_GLOWING_VENT.get());
+                        output.accept(ModItems.TECHNICAL_GLOWING_VENT_CONNECTING.get());
+                        output.accept(ModItems.TECHNICAL_INSULATION.get());
+                        output.accept(ModItems.TECHNICAL_INSULATION_CONNECTING.get());
+                        output.accept(ModItems.TECHNICAL_GEARS_AND_FLYWHEELS.get());
+                        output.accept(ModItems.TECHNICAL_GEARS_AND_FLYWHEELS_CONNECTING.get());
+                        output.accept(ModItems.TECHNICAL_CABLES.get());
+                        output.accept(ModItems.TECHNICAL_CABLES_CONNECTING.get());
+                        output.accept(ModItems.TECHNICAL_RUSTY_BOLTED_PLATES.get());
+                        output.accept(ModItems.TECHNICAL_RUSTY_SCAFFOLD_TRANSPARENT.get());
+                        output.accept(ModItems.TECHNICAL_RUSTY_SCAFFOLD_TRANSPARENT_CONNECTING.get());
+                        output.accept(ModItems.TECHNICAL_FAN_FAST_TRANSPARENT.get());
+                        output.accept(ModItems.TECHNICAL_FAN_STILL_TRANSPARENT.get());
+                        output.accept(ModItems.TECHNICAL_GRATE.get());
+                        output.accept(ModItems.TECHNICAL_GRATE_CONNECTING.get());
+                        output.accept(ModItems.TECHNICAL_RUSTY_GRATE.get());
+                        output.accept(ModItems.TECHNICAL_RUSTY_GRATE_CONNECTING.get());
+                        output.accept(ModItems.TECHNICAL_STURDY.get());
+                        output.accept(ModItems.TECHNICAL_STURDY_CONNECTING.get());
+                        output.accept(ModItems.TECHNICAL_EXHAUST_PLATING.get());
+                        output.accept(ModItems.TECHNICAL_EXHAUST_PLATING_CONNECTING.get());
+
+                        // Additional technical simples
+                        output.accept(ModItems.TECHNICAL_WIRES.get());
+                        output.accept(ModItems.TECHNICAL_OLD.get());
+                        output.accept(ModItems.TECHNICAL_MEGACELL.get());
                     })
                     .build());
 }

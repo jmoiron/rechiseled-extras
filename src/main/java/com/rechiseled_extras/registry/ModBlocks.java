@@ -155,6 +155,38 @@ public class ModBlocks {
     public static final RegistryObject<Block> FUTURA_RAINBOWLICIOUSLY_WAVY = simpleBlock("futura_rainbowliciously_wavy", DECORATIVE_BLOCK);
     public static final RegistryObject<Block> FUTURA_FABULOUSLY_WAVY = connecting("futura_fabulously_wavy", DECORATIVE_BLOCK);
 
+    // Technical (factory/technical) - ordered per docs/GAMEBUGS.md after factory list
+    // CTM-only and simple blocks we have so far, in the listed order:
+    public static final RegistryObject<Block> TECHNICAL_RUSTY_SCAFFOLD = connecting("technical_rusty_scaffold", DECORATIVE_BLOCK);
+    public static final RegistryObject<Block> TECHNICAL_CAUTION_FRAMED_PLATES = connecting("technical_caution_framed_plates", DECORATIVE_BLOCK);
+    public static final RegistryObject<Block> TECHNICAL_INDUSTRIAL_RELIC = simpleBlock("technical_industrial_relic", DECORATIVE_BLOCK);
+    public static final RegistryObject<Block> TECHNICAL_LARGE_PIPES = connecting("technical_large_pipes", DECORATIVE_BLOCK);
+    public static final RegistryObject<Block> TECHNICAL_SMALL_PIPES = connecting("technical_small_pipes", DECORATIVE_BLOCK);
+    // Fans (directional/multi-sided)
+    public static final RegistryObject<Block> TECHNICAL_FAN_FAST = simpleBlock("technical_fan_fast", DECORATIVE_BLOCK);
+    public static final RegistryObject<Block> TECHNICAL_FAN_STILL = simpleBlock("technical_fan_still", DECORATIVE_BLOCK);
+    public static final RegistryObject<Block> TECHNICAL_VENT = connecting("technical_vent", DECORATIVE_BLOCK);
+    public static final RegistryObject<Block> TECHNICAL_GLOWING_VENT = connecting("technical_glowing_vent", DECORATIVE_BLOCK);
+    public static final RegistryObject<Block> TECHNICAL_INSULATION = connecting("technical_insulation", DECORATIVE_BLOCK);
+    public static final RegistryObject<Block> TECHNICAL_CABLES = connecting("technical_cables", DECORATIVE_BLOCK);
+    public static final RegistryObject<Block> TECHNICAL_GEARS_AND_FLYWHEELS = connecting("technical_gears_and_flywheels", DECORATIVE_BLOCK);
+    public static final RegistryObject<Block> TECHNICAL_RUSTY_SCAFFOLD_TRANSPARENT = connecting("technical_rusty_scaffold_transparent", DECORATIVE_BLOCK);
+    // Simple: Rusty Bolted Plates (treat as simple texture; original mcmeta used random CTM)
+    public static final RegistryObject<Block> TECHNICAL_RUSTY_BOLTED_PLATES = simpleBlock("technical_rusty_bolted_plates", DECORATIVE_BLOCK);
+    // Transparent fan variants
+    public static final RegistryObject<Block> TECHNICAL_FAN_FAST_TRANSPARENT = simpleBlock("technical_fan_fast_transparent", DECORATIVE_BLOCK);
+    public static final RegistryObject<Block> TECHNICAL_FAN_STILL_TRANSPARENT = simpleBlock("technical_fan_still_transparent", DECORATIVE_BLOCK);
+    public static final RegistryObject<Block> TECHNICAL_GRATE = connecting("technical_grate", DECORATIVE_BLOCK);
+    public static final RegistryObject<Block> TECHNICAL_RUSTY_GRATE = connecting("technical_rusty_grate", DECORATIVE_BLOCK);
+    public static final RegistryObject<Block> TECHNICAL_STURDY = connecting("technical_sturdy", DECORATIVE_BLOCK);
+    public static final RegistryObject<Block> TECHNICAL_EXHAUST_PLATING = connecting("technical_exhaust_plating", DECORATIVE_BLOCK);
+    public static final RegistryObject<Block> TECHNICAL_FAN_MALFUNCTIONING = simpleBlock("technical_fan_malfunctioning", DECORATIVE_BLOCK);
+    // Additional simple textures not explicitly in the order list
+    public static final RegistryObject<Block> TECHNICAL_WIRES = simpleBlock("technical_wires", DECORATIVE_BLOCK);
+    public static final RegistryObject<Block> TECHNICAL_OLD = simpleBlock("technical_old", DECORATIVE_BLOCK);
+    // Later in the list: megacell battery
+    public static final RegistryObject<Block> TECHNICAL_MEGACELL = simpleBlock("technical_megacell", DECORATIVE_BLOCK);
+
     /**
      * Registers a simple block (no CTM)
      * Note: BlockItems must be registered separately in ModItems

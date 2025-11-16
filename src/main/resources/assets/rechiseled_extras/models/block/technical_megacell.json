@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "rechiseled_extras:block/factory/technical/new/megacell-top",
+    "bottom": "rechiseled_extras:block/factory/technical/new/megacell-bottom",
+    "side": "rechiseled_extras:block/factory/technical/new/megacell-side"
+  }
+}

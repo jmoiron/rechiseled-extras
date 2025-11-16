@@ -162,6 +162,34 @@ public class ModBlockTagProvider extends BlockTagsProvider {
             ModBlocks.FACTORY_BLUE_WIREFRAME.get()
         );
 
+        // Technical (factory/technical) blocks - simple and CTM variants
+        pickaxeTag.add(
+            ModBlocks.TECHNICAL_RUSTY_SCAFFOLD.get(),
+            ModBlocks.TECHNICAL_CAUTION_FRAMED_PLATES.get(),
+            ModBlocks.TECHNICAL_INDUSTRIAL_RELIC.get(),
+            ModBlocks.TECHNICAL_LARGE_PIPES.get(),
+            ModBlocks.TECHNICAL_SMALL_PIPES.get(),
+            ModBlocks.TECHNICAL_FAN_FAST.get(),
+            ModBlocks.TECHNICAL_FAN_STILL.get(),
+            ModBlocks.TECHNICAL_VENT.get(),
+            ModBlocks.TECHNICAL_GLOWING_VENT.get(),
+            ModBlocks.TECHNICAL_INSULATION.get(),
+            ModBlocks.TECHNICAL_CABLES.get(),
+            ModBlocks.TECHNICAL_RUSTY_SCAFFOLD_TRANSPARENT.get(),
+            ModBlocks.TECHNICAL_FAN_FAST_TRANSPARENT.get(),
+            ModBlocks.TECHNICAL_FAN_STILL_TRANSPARENT.get(),
+            ModBlocks.TECHNICAL_RUSTY_BOLTED_PLATES.get(),
+            ModBlocks.TECHNICAL_GEARS_AND_FLYWHEELS.get(),
+            ModBlocks.TECHNICAL_GRATE.get(),
+            ModBlocks.TECHNICAL_RUSTY_GRATE.get(),
+            ModBlocks.TECHNICAL_WIRES.get(),
+            ModBlocks.TECHNICAL_OLD.get(),
+            ModBlocks.TECHNICAL_MEGACELL.get(),
+            ModBlocks.TECHNICAL_FAN_MALFUNCTIONING.get(),
+            ModBlocks.TECHNICAL_STURDY.get(),
+            ModBlocks.TECHNICAL_EXHAUST_PLATING.get()
+        );
+
         // Futura blocks
         pickaxeTag.add(
             ModBlocks.FUTURA_CONTROLLER.get(),
@@ -320,6 +348,34 @@ public class ModBlockTagProvider extends BlockTagsProvider {
             ModBlocks.FUTURA_SCREEN_GRAY.get(),
             ModBlocks.FUTURA_RAINBOWLICIOUSLY_WAVY.get(),
             ModBlocks.FUTURA_FABULOUSLY_WAVY.get()
+        );
+
+        // Technical (factory/technical) blocks - simple and CTM variants
+        stoneTag.add(
+            ModBlocks.TECHNICAL_RUSTY_SCAFFOLD.get(),
+            ModBlocks.TECHNICAL_CAUTION_FRAMED_PLATES.get(),
+            ModBlocks.TECHNICAL_INDUSTRIAL_RELIC.get(),
+            ModBlocks.TECHNICAL_LARGE_PIPES.get(),
+            ModBlocks.TECHNICAL_SMALL_PIPES.get(),
+            ModBlocks.TECHNICAL_FAN_FAST.get(),
+            ModBlocks.TECHNICAL_FAN_STILL.get(),
+            ModBlocks.TECHNICAL_VENT.get(),
+            ModBlocks.TECHNICAL_GLOWING_VENT.get(),
+            ModBlocks.TECHNICAL_INSULATION.get(),
+            ModBlocks.TECHNICAL_CABLES.get(),
+            ModBlocks.TECHNICAL_RUSTY_SCAFFOLD_TRANSPARENT.get(),
+            ModBlocks.TECHNICAL_FAN_FAST_TRANSPARENT.get(),
+            ModBlocks.TECHNICAL_FAN_STILL_TRANSPARENT.get(),
+            ModBlocks.TECHNICAL_RUSTY_BOLTED_PLATES.get(),
+            ModBlocks.TECHNICAL_GEARS_AND_FLYWHEELS.get(),
+            ModBlocks.TECHNICAL_GRATE.get(),
+            ModBlocks.TECHNICAL_RUSTY_GRATE.get(),
+            ModBlocks.TECHNICAL_WIRES.get(),
+            ModBlocks.TECHNICAL_OLD.get(),
+            ModBlocks.TECHNICAL_MEGACELL.get(),
+            ModBlocks.TECHNICAL_FAN_MALFUNCTIONING.get(),
+            ModBlocks.TECHNICAL_STURDY.get(),
+            ModBlocks.TECHNICAL_EXHAUST_PLATING.get()
         );
     }
 }

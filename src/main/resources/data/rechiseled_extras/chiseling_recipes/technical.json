@@ -1,0 +1,32 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    { "item": "rechiseled_extras:technical_industrial_relic" },
+    { "item": "rechiseled_extras:technical_wires" },
+    { "item": "rechiseled_extras:technical_old" },
+    { "item": "rechiseled_extras:technical_megacell" },
+
+    { "connecting_item": "rechiseled_extras:technical_cables_connecting", "item": "rechiseled_extras:technical_cables" },
+    { "connecting_item": "rechiseled_extras:technical_gears_and_flywheels_connecting", "item": "rechiseled_extras:technical_gears_and_flywheels" },
+    { "item": "rechiseled_extras:technical_rusty_bolted_plates" },
+    { "connecting_item": "rechiseled_extras:technical_caution_framed_plates_connecting", "item": "rechiseled_extras:technical_caution_framed_plates" },
+    { "connecting_item": "rechiseled_extras:technical_insulation_connecting", "item": "rechiseled_extras:technical_insulation" },
+    { "connecting_item": "rechiseled_extras:technical_large_pipes_connecting", "item": "rechiseled_extras:technical_large_pipes" },
+    { "connecting_item": "rechiseled_extras:technical_small_pipes_connecting", "item": "rechiseled_extras:technical_small_pipes" },
+    { "connecting_item": "rechiseled_extras:technical_rusty_scaffold_connecting", "item": "rechiseled_extras:technical_rusty_scaffold" },
+    { "connecting_item": "rechiseled_extras:technical_rusty_scaffold_transparent_connecting", "item": "rechiseled_extras:technical_rusty_scaffold_transparent" },
+    { "connecting_item": "rechiseled_extras:technical_vent_connecting", "item": "rechiseled_extras:technical_vent" },
+    { "connecting_item": "rechiseled_extras:technical_glowing_vent_connecting", "item": "rechiseled_extras:technical_glowing_vent" },
+    { "connecting_item": "rechiseled_extras:technical_grate_connecting", "item": "rechiseled_extras:technical_grate" },
+    { "connecting_item": "rechiseled_extras:technical_rusty_grate_connecting", "item": "rechiseled_extras:technical_rusty_grate" },
+    { "connecting_item": "rechiseled_extras:technical_sturdy_connecting", "item": "rechiseled_extras:technical_sturdy" },
+    { "connecting_item": "rechiseled_extras:technical_exhaust_plating_connecting", "item": "rechiseled_extras:technical_exhaust_plating" }
+    ,
+    { "item": "rechiseled_extras:technical_fan_fast" },
+    { "item": "rechiseled_extras:technical_fan_still" },
+    { "item": "rechiseled_extras:technical_fan_fast_transparent" },
+    { "item": "rechiseled_extras:technical_fan_still_transparent" },
+    { "item": "rechiseled_extras:technical_fan_malfunctioning" }
+  ],
+  "overwrite": false
+}

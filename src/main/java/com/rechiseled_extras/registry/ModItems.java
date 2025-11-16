@@ -485,4 +485,111 @@ public class ModItems {
             () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
                     .filter(e -> e.getId().getPath().equals("futura_fabulously_wavy_connecting"))
                     .findFirst().get().get(), new Item.Properties()));
+
+    // Technical (factory/technical) - block items in GAMEBUGS order
+    public static final RegistryObject<Item> TECHNICAL_RUSTY_SCAFFOLD = ITEMS.register("technical_rusty_scaffold",
+            () -> new BlockItem(ModBlocks.TECHNICAL_RUSTY_SCAFFOLD.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_RUSTY_SCAFFOLD_CONNECTING = ITEMS.register("technical_rusty_scaffold_connecting",
+            () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
+                    .filter(e -> e.getId().getPath().equals("technical_rusty_scaffold_connecting"))
+                    .findFirst().get().get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_CAUTION_FRAMED_PLATES = ITEMS.register("technical_caution_framed_plates",
+            () -> new BlockItem(ModBlocks.TECHNICAL_CAUTION_FRAMED_PLATES.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_CAUTION_FRAMED_PLATES_CONNECTING = ITEMS.register("technical_caution_framed_plates_connecting",
+            () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
+                    .filter(e -> e.getId().getPath().equals("technical_caution_framed_plates_connecting"))
+                    .findFirst().get().get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_INDUSTRIAL_RELIC = ITEMS.register("technical_industrial_relic",
+            () -> new BlockItem(ModBlocks.TECHNICAL_INDUSTRIAL_RELIC.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_LARGE_PIPES = ITEMS.register("technical_large_pipes",
+            () -> new BlockItem(ModBlocks.TECHNICAL_LARGE_PIPES.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_LARGE_PIPES_CONNECTING = ITEMS.register("technical_large_pipes_connecting",
+            () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
+                    .filter(e -> e.getId().getPath().equals("technical_large_pipes_connecting"))
+                    .findFirst().get().get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_SMALL_PIPES = ITEMS.register("technical_small_pipes",
+            () -> new BlockItem(ModBlocks.TECHNICAL_SMALL_PIPES.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_SMALL_PIPES_CONNECTING = ITEMS.register("technical_small_pipes_connecting",
+            () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
+                    .filter(e -> e.getId().getPath().equals("technical_small_pipes_connecting"))
+                    .findFirst().get().get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_FAN_FAST = ITEMS.register("technical_fan_fast",
+            () -> new BlockItem(ModBlocks.TECHNICAL_FAN_FAST.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_FAN_STILL = ITEMS.register("technical_fan_still",
+            () -> new BlockItem(ModBlocks.TECHNICAL_FAN_STILL.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_VENT = ITEMS.register("technical_vent",
+            () -> new BlockItem(ModBlocks.TECHNICAL_VENT.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_VENT_CONNECTING = ITEMS.register("technical_vent_connecting",
+            () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
+                    .filter(e -> e.getId().getPath().equals("technical_vent_connecting"))
+                    .findFirst().get().get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_GLOWING_VENT = ITEMS.register("technical_glowing_vent",
+            () -> new BlockItem(ModBlocks.TECHNICAL_GLOWING_VENT.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_GLOWING_VENT_CONNECTING = ITEMS.register("technical_glowing_vent_connecting",
+            () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
+                    .filter(e -> e.getId().getPath().equals("technical_glowing_vent_connecting"))
+                    .findFirst().get().get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_INSULATION = ITEMS.register("technical_insulation",
+            () -> new BlockItem(ModBlocks.TECHNICAL_INSULATION.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_INSULATION_CONNECTING = ITEMS.register("technical_insulation_connecting",
+            () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
+                    .filter(e -> e.getId().getPath().equals("technical_insulation_connecting"))
+                    .findFirst().get().get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_CABLES = ITEMS.register("technical_cables",
+            () -> new BlockItem(ModBlocks.TECHNICAL_CABLES.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_CABLES_CONNECTING = ITEMS.register("technical_cables_connecting",
+            () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
+                    .filter(e -> e.getId().getPath().equals("technical_cables_connecting"))
+                    .findFirst().get().get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_GEARS_AND_FLYWHEELS = ITEMS.register("technical_gears_and_flywheels",
+            () -> new BlockItem(ModBlocks.TECHNICAL_GEARS_AND_FLYWHEELS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_GEARS_AND_FLYWHEELS_CONNECTING = ITEMS.register("technical_gears_and_flywheels_connecting",
+            () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
+                    .filter(e -> e.getId().getPath().equals("technical_gears_and_flywheels_connecting"))
+                    .findFirst().get().get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_RUSTY_BOLTED_PLATES = ITEMS.register("technical_rusty_bolted_plates",
+            () -> new BlockItem(ModBlocks.TECHNICAL_RUSTY_BOLTED_PLATES.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_RUSTY_SCAFFOLD_TRANSPARENT = ITEMS.register("technical_rusty_scaffold_transparent",
+            () -> new BlockItem(ModBlocks.TECHNICAL_RUSTY_SCAFFOLD_TRANSPARENT.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_RUSTY_SCAFFOLD_TRANSPARENT_CONNECTING = ITEMS.register("technical_rusty_scaffold_transparent_connecting",
+            () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
+                    .filter(e -> e.getId().getPath().equals("technical_rusty_scaffold_transparent_connecting"))
+                    .findFirst().get().get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_FAN_FAST_TRANSPARENT = ITEMS.register("technical_fan_fast_transparent",
+            () -> new BlockItem(ModBlocks.TECHNICAL_FAN_FAST_TRANSPARENT.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_FAN_STILL_TRANSPARENT = ITEMS.register("technical_fan_still_transparent",
+            () -> new BlockItem(ModBlocks.TECHNICAL_FAN_STILL_TRANSPARENT.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_GRATE = ITEMS.register("technical_grate",
+            () -> new BlockItem(ModBlocks.TECHNICAL_GRATE.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_GRATE_CONNECTING = ITEMS.register("technical_grate_connecting",
+            () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
+                    .filter(e -> e.getId().getPath().equals("technical_grate_connecting"))
+                    .findFirst().get().get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_RUSTY_GRATE = ITEMS.register("technical_rusty_grate",
+            () -> new BlockItem(ModBlocks.TECHNICAL_RUSTY_GRATE.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_RUSTY_GRATE_CONNECTING = ITEMS.register("technical_rusty_grate_connecting",
+            () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
+                    .filter(e -> e.getId().getPath().equals("technical_rusty_grate_connecting"))
+                    .findFirst().get().get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_STURDY = ITEMS.register("technical_sturdy",
+            () -> new BlockItem(ModBlocks.TECHNICAL_STURDY.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_STURDY_CONNECTING = ITEMS.register("technical_sturdy_connecting",
+            () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
+                    .filter(e -> e.getId().getPath().equals("technical_sturdy_connecting"))
+                    .findFirst().get().get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_EXHAUST_PLATING = ITEMS.register("technical_exhaust_plating",
+            () -> new BlockItem(ModBlocks.TECHNICAL_EXHAUST_PLATING.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_EXHAUST_PLATING_CONNECTING = ITEMS.register("technical_exhaust_plating_connecting",
+            () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
+                    .filter(e -> e.getId().getPath().equals("technical_exhaust_plating_connecting"))
+                    .findFirst().get().get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_FAN_MALFUNCTIONING = ITEMS.register("technical_fan_malfunctioning",
+            () -> new BlockItem(ModBlocks.TECHNICAL_FAN_MALFUNCTIONING.get(), new Item.Properties()));
+    // Additional simple technical items
+    public static final RegistryObject<Item> TECHNICAL_WIRES = ITEMS.register("technical_wires",
+            () -> new BlockItem(ModBlocks.TECHNICAL_WIRES.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_OLD = ITEMS.register("technical_old",
+            () -> new BlockItem(ModBlocks.TECHNICAL_OLD.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_MEGACELL = ITEMS.register("technical_megacell",
+            () -> new BlockItem(ModBlocks.TECHNICAL_MEGACELL.get(), new Item.Properties()));
 }

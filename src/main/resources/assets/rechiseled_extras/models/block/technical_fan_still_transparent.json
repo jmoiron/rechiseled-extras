@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "rechiseled_extras:block/factory/technical/classic/fanstilltransparent-top",
+    "side": "rechiseled_extras:block/factory/technical/classic/fanstilltransparent-side"
+  }
+}

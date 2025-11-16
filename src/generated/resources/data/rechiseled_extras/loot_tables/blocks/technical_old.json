@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rechiseled_extras:technical_old"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "rechiseled_extras:blocks/technical_old"
+}

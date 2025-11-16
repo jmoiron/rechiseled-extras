@@ -151,6 +151,34 @@ public class ModLootTableProvider extends LootTableProvider {
             // Add all connecting blocks (blocks created by the connecting() method)
             // These are the _connecting variants that need loot tables
             addConnectingBlocks();
+
+            // Technical (factory/technical) - simple static blocks
+            dropSelf(ModBlocks.TECHNICAL_INDUSTRIAL_RELIC.get());
+            dropSelf(ModBlocks.TECHNICAL_WIRES.get());
+            dropSelf(ModBlocks.TECHNICAL_OLD.get());
+            dropSelf(ModBlocks.TECHNICAL_MEGACELL.get());
+
+            // Technical (factory/technical) - CTM-only blocks (regular variants)
+            dropSelf(ModBlocks.TECHNICAL_CABLES.get());
+            dropSelf(ModBlocks.TECHNICAL_CAUTION_FRAMED_PLATES.get());
+            dropSelf(ModBlocks.TECHNICAL_INSULATION.get());
+            dropSelf(ModBlocks.TECHNICAL_LARGE_PIPES.get());
+            dropSelf(ModBlocks.TECHNICAL_SMALL_PIPES.get());
+            dropSelf(ModBlocks.TECHNICAL_RUSTY_SCAFFOLD.get());
+            dropSelf(ModBlocks.TECHNICAL_RUSTY_SCAFFOLD_TRANSPARENT.get());
+            dropSelf(ModBlocks.TECHNICAL_RUSTY_BOLTED_PLATES.get());
+            dropSelf(ModBlocks.TECHNICAL_VENT.get());
+            dropSelf(ModBlocks.TECHNICAL_GLOWING_VENT.get());
+            dropSelf(ModBlocks.TECHNICAL_GRATE.get());
+            dropSelf(ModBlocks.TECHNICAL_RUSTY_GRATE.get());
+            dropSelf(ModBlocks.TECHNICAL_FAN_FAST.get());
+            dropSelf(ModBlocks.TECHNICAL_FAN_STILL.get());
+            dropSelf(ModBlocks.TECHNICAL_FAN_FAST_TRANSPARENT.get());
+            dropSelf(ModBlocks.TECHNICAL_FAN_STILL_TRANSPARENT.get());
+            dropSelf(ModBlocks.TECHNICAL_FAN_MALFUNCTIONING.get());
+            dropSelf(ModBlocks.TECHNICAL_GEARS_AND_FLYWHEELS.get());
+            dropSelf(ModBlocks.TECHNICAL_STURDY.get());
+            dropSelf(ModBlocks.TECHNICAL_EXHAUST_PLATING.get());
         }
 
         /**
