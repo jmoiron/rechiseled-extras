@@ -139,10 +139,10 @@ public class ModCreativeTabs {
                         output.accept(ModItems.FACTORY_RUST_CONNECTING.get());
                         output.accept(ModItems.FACTORY_PLATEX.get());
                         output.accept(ModItems.FACTORY_PLATEX_CONNECTING.get());
-                        output.accept(ModItems.FACTORY_WIREFRAMEWHITE.get());
-                        output.accept(ModItems.FACTORY_WIREFRAMEWHITE_CONNECTING.get());
                         output.accept(ModItems.FACTORY_WIREFRAME.get());
                         output.accept(ModItems.FACTORY_WIREFRAME_CONNECTING.get());
+                        output.accept(ModItems.FACTORY_PURPLE_WIREFRAME.get());
+                        output.accept(ModItems.FACTORY_PURPLE_WIREFRAME_CONNECTING.get());
                         output.accept(ModItems.FACTORY_HAZARD.get());
                         output.accept(ModItems.FACTORY_HAZARD_CONNECTING.get());
                         output.accept(ModItems.FACTORY_HAZARDORANGE.get());

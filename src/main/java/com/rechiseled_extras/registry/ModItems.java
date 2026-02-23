@@ -334,16 +334,16 @@ public class ModItems {
                     .filter(e -> e.getId().getPath().equals("factory_slightly_rusty_plate_connecting"))
                     .findFirst().get().get(), new Item.Properties()));
 
-    public static final RegistryObject<Item> FACTORY_WIREFRAMEWHITE = ITEMS.register("factory_wireframewhite",
+    public static final RegistryObject<Item> FACTORY_WIREFRAME = ITEMS.register("factory_wireframe",
             () -> new BlockItem(ModBlocks.FACTORY_WIREFRAME.get(), new Item.Properties()));
-    public static final RegistryObject<Item> FACTORY_WIREFRAMEWHITE_CONNECTING = ITEMS.register("factory_wireframewhite_connecting",
+    public static final RegistryObject<Item> FACTORY_WIREFRAME_CONNECTING = ITEMS.register("factory_wireframe_connecting",
             () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
                     .filter(e -> e.getId().getPath().equals("factory_wireframe_connecting"))
                     .findFirst().get().get(), new Item.Properties()));
 
-    public static final RegistryObject<Item> FACTORY_WIREFRAME = ITEMS.register("factory_wireframe",
+    public static final RegistryObject<Item> FACTORY_PURPLE_WIREFRAME = ITEMS.register("factory_purple_wireframe",
             () -> new BlockItem(ModBlocks.FACTORY_PURPLE_WIREFRAME.get(), new Item.Properties()));
-    public static final RegistryObject<Item> FACTORY_WIREFRAME_CONNECTING = ITEMS.register("factory_wireframe_connecting",
+    public static final RegistryObject<Item> FACTORY_PURPLE_WIREFRAME_CONNECTING = ITEMS.register("factory_purple_wireframe_connecting",
             () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
                     .filter(e -> e.getId().getPath().equals("factory_purple_wireframe_connecting"))
                     .findFirst().get().get(), new Item.Properties()));

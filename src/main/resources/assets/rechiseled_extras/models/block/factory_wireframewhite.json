@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "rechiseled_extras:block/factory/purple_wireframe"
-  }
-}
