@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      { "model": "rechiseled_extras:block/technical_pipes_0" },
+      { "model": "rechiseled_extras:block/technical_pipes_1" },
+      { "model": "rechiseled_extras:block/technical_pipes_2" },
+      { "model": "rechiseled_extras:block/technical_pipes_3" },
+      { "model": "rechiseled_extras:block/technical_pipes_4" },
+      { "model": "rechiseled_extras:block/technical_pipes_5" },
+      { "model": "rechiseled_extras:block/technical_pipes_6" },
+      { "model": "rechiseled_extras:block/technical_pipes_7" },
+      { "model": "rechiseled_extras:block/technical_pipes_8" }
+    ]
+  }
+}
