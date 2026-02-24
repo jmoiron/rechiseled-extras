@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      { "model": "rechiseled_extras:block/technical_weathered_orange_panels_0" },
+      { "model": "rechiseled_extras:block/technical_weathered_orange_panels_1" },
+      { "model": "rechiseled_extras:block/technical_weathered_orange_panels_2" },
+      { "model": "rechiseled_extras:block/technical_weathered_orange_panels_3" }
+    ]
+  }
+}

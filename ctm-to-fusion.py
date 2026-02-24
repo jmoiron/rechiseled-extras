@@ -239,6 +239,29 @@ def write_vanilla_animation_mcmeta(path: Path, frametime: int = 1) -> None:
         f.write("\n")
 
 
+def convert_split(src_path: Path, outdir: Path) -> List[Path]:
+    """Split a 16n×16m PNG into n*m individual 16×16 PNG files in outdir.
+
+    Tiles are extracted in row-major order and named {stem}_0.png, {stem}_1.png, ...
+    """
+    img = load_image(src_path)
+    w, h = img.size
+    if w % 16 != 0 or h % 16 != 0:
+        raise ValueError(f"Image dimensions must be multiples of 16, got {w}x{h}")
+    n_cols = w // 16
+    n_rows = h // 16
+    outdir.mkdir(parents=True, exist_ok=True)
+    stem = src_path.stem
+    outputs: List[Path] = []
+    for row in range(n_rows):
+        for col in range(n_cols):
+            tile = img.crop((col * 16, row * 16, (col + 1) * 16, (row + 1) * 16))
+            out_path = outdir / f"{stem}_{row * n_cols + col}.png"
+            tile.save(out_path)
+            outputs.append(out_path)
+    return outputs
+
+
 def convert_normal(ctm_path: Path, outdir: Path, *, compact: bool = False, outfile: Optional[Path] = None) -> Path:
     """Convert a normal CTM (-ctm.png) to Fusion layout, supporting animation."""
     ctm_img = load_image(ctm_path)
@@ -553,6 +576,7 @@ def main(argv: list[str]) -> int:
     parser.add_argument("--center", default=None, help="Center tile image for compact layout (16x16[*N])")
     parser.add_argument("--end-cross", action="store_true", help="In compact layout, copy the 'end' tile result to the 'cross' tile")
     parser.add_argument("-f", "--file", default=None, help="Output file path when producing a single image (no mcmeta)")
+    parser.add_argument("--split", action="store_true", help="Split a 16n×16m PNG into n*m individual 16×16 tiles in OUTDIR, named {stem}_0.png, {stem}_1.png, ...")
     args = parser.parse_args(argv)
 
     src_path = Path(args.source)
@@ -564,6 +588,11 @@ def main(argv: list[str]) -> int:
     outdir.mkdir(parents=True, exist_ok=True)
 
     try:
+        if args.split:
+            outputs = convert_split(src_path, outdir)
+            for p in outputs:
+                print(f"Wrote {p}")
+            return 0
         if args.composite:
             comps = [Path(p) for p in args.composite]
             center = Path(args.center) if args.center else None

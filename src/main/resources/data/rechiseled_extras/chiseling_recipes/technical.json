@@ -20,6 +20,8 @@
     { "connecting_item": "rechiseled_extras:technical_rusty_scaffold_transparent_connecting", "item": "rechiseled_extras:technical_rusty_scaffold_transparent" },
     { "item": "rechiseled_extras:technical_fan_fast_transparent" },
     { "item": "rechiseled_extras:technical_fan_still_transparent" },
+    { "item": "rechiseled_extras:technical_weathered_green_panels" },
+    { "item": "rechiseled_extras:technical_weathered_orange_panels" },
     { "connecting_item": "rechiseled_extras:technical_sturdy_connecting", "item": "rechiseled_extras:technical_sturdy" },
     { "item": "rechiseled_extras:technical_megacell" },
     { "connecting_item": "rechiseled_extras:technical_exhaust_plating_connecting", "item": "rechiseled_extras:technical_exhaust_plating" },

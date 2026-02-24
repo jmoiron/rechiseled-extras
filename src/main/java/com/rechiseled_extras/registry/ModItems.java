@@ -571,6 +571,10 @@ public class ModItems {
             () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
                     .filter(e -> e.getId().getPath().equals("technical_rusty_grate_connecting"))
                     .findFirst().get().get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_WEATHERED_GREEN_PANELS = ITEMS.register("technical_weathered_green_panels",
+            () -> new BlockItem(ModBlocks.TECHNICAL_WEATHERED_GREEN_PANELS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_WEATHERED_ORANGE_PANELS = ITEMS.register("technical_weathered_orange_panels",
+            () -> new BlockItem(ModBlocks.TECHNICAL_WEATHERED_ORANGE_PANELS.get(), new Item.Properties()));
     public static final RegistryObject<Item> TECHNICAL_STURDY = ITEMS.register("technical_sturdy",
             () -> new BlockItem(ModBlocks.TECHNICAL_STURDY.get(), new Item.Properties()));
     public static final RegistryObject<Item> TECHNICAL_STURDY_CONNECTING = ITEMS.register("technical_sturdy_connecting",

@@ -219,6 +219,8 @@ public class ModCreativeTabs {
                         output.accept(ModItems.TECHNICAL_RUSTY_SCAFFOLD_TRANSPARENT_CONNECTING.get());
                         output.accept(ModItems.TECHNICAL_FAN_FAST_TRANSPARENT.get());
                         output.accept(ModItems.TECHNICAL_FAN_STILL_TRANSPARENT.get());
+                        output.accept(ModItems.TECHNICAL_WEATHERED_GREEN_PANELS.get());
+                        output.accept(ModItems.TECHNICAL_WEATHERED_ORANGE_PANELS.get());
                         output.accept(ModItems.TECHNICAL_STURDY.get());
                         output.accept(ModItems.TECHNICAL_STURDY_CONNECTING.get());
                         output.accept(ModItems.TECHNICAL_MEGACELL.get());

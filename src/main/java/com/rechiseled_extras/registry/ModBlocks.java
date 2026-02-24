@@ -177,8 +177,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> TECHNICAL_FAN_STILL_TRANSPARENT = simpleBlock("technical_fan_still_transparent", DECORATIVE_BLOCK);
     // [massive fan - not yet implemented]
     // [massive hexagonal plating - not yet implemented]
-    // [extremely corroded panels - not yet implemented]
-    // [extremely rusted panels - not yet implemented]
+    public static final RegistryObject<Block> TECHNICAL_WEATHERED_GREEN_PANELS = simpleBlock("technical_weathered_green_panels", DECORATIVE_BLOCK);
+    public static final RegistryObject<Block> TECHNICAL_WEATHERED_ORANGE_PANELS = simpleBlock("technical_weathered_orange_panels", DECORATIVE_BLOCK);
     public static final RegistryObject<Block> TECHNICAL_STURDY = connecting("technical_sturdy", DECORATIVE_BLOCK);
     public static final RegistryObject<Block> TECHNICAL_MEGACELL = simpleBlock("technical_megacell", DECORATIVE_BLOCK);
     public static final RegistryObject<Block> TECHNICAL_EXHAUST_PLATING = connecting("technical_exhaust_plating", DECORATIVE_BLOCK);
