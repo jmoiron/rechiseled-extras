@@ -184,7 +184,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> TECHNICAL_EXHAUST_PLATING = connecting("technical_exhaust_plating", DECORATIVE_BLOCK);
     // [sloppy plating - not yet implemented]
     // [engineer's pipes - not yet implemented]
-    // [large rusty scaffold - not yet implemented]
+    public static final RegistryObject<Block> TECHNICAL_LARGE_RUSTY_SCAFFOLD = connecting("technical_large_rusty_scaffold", DECORATIVE_BLOCK);
     // [pipes - not yet implemented]
     // Chisel 1.12 blocks not in 1.20 ordering:
     public static final RegistryObject<Block> TECHNICAL_WIRES = simpleBlock("technical_wires", DECORATIVE_BLOCK);

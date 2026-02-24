@@ -226,6 +226,8 @@ public class ModCreativeTabs {
                         output.accept(ModItems.TECHNICAL_MEGACELL.get());
                         output.accept(ModItems.TECHNICAL_EXHAUST_PLATING.get());
                         output.accept(ModItems.TECHNICAL_EXHAUST_PLATING_CONNECTING.get());
+                        output.accept(ModItems.TECHNICAL_LARGE_RUSTY_SCAFFOLD.get());
+                        output.accept(ModItems.TECHNICAL_LARGE_RUSTY_SCAFFOLD_CONNECTING.get());
                         output.accept(ModItems.TECHNICAL_WIRES.get());
                         output.accept(ModItems.TECHNICAL_OLD.get());
                     })
