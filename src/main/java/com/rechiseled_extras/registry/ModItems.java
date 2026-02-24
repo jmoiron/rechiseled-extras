@@ -310,28 +310,28 @@ public class ModItems {
             () -> new BlockItem(ModBlocks.FACTORY_DOTTED_RUSTY_PLATE.get(), new Item.Properties()));
     public static final RegistryObject<Item> FACTORY_DOTS_CONNECTING = ITEMS.register("factory_dots_connecting",
             () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
-                    .filter(e -> e.getId().getPath().equals("factory_dotted_rusty_plate_connecting"))
+                    .filter(e -> e.getId().getPath().equals("factory_dots_connecting"))
                     .findFirst().get().get(), new Item.Properties()));
 
     public static final RegistryObject<Item> FACTORY_RUST2 = ITEMS.register("factory_rust2",
             () -> new BlockItem(ModBlocks.FACTORY_RUSTY_PLATE.get(), new Item.Properties()));
     public static final RegistryObject<Item> FACTORY_RUST2_CONNECTING = ITEMS.register("factory_rust2_connecting",
             () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
-                    .filter(e -> e.getId().getPath().equals("factory_rusty_plate_connecting"))
+                    .filter(e -> e.getId().getPath().equals("factory_rust2_connecting"))
                     .findFirst().get().get(), new Item.Properties()));
 
     public static final RegistryObject<Item> FACTORY_RUST = ITEMS.register("factory_rust",
             () -> new BlockItem(ModBlocks.FACTORY_VERY_RUSTY_PLATE.get(), new Item.Properties()));
     public static final RegistryObject<Item> FACTORY_RUST_CONNECTING = ITEMS.register("factory_rust_connecting",
             () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
-                    .filter(e -> e.getId().getPath().equals("factory_very_rusty_plate_connecting"))
+                    .filter(e -> e.getId().getPath().equals("factory_rust_connecting"))
                     .findFirst().get().get(), new Item.Properties()));
 
     public static final RegistryObject<Item> FACTORY_PLATEX = ITEMS.register("factory_platex",
             () -> new BlockItem(ModBlocks.FACTORY_SLIGHTLY_RUSTY_PLATE.get(), new Item.Properties()));
     public static final RegistryObject<Item> FACTORY_PLATEX_CONNECTING = ITEMS.register("factory_platex_connecting",
             () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
-                    .filter(e -> e.getId().getPath().equals("factory_slightly_rusty_plate_connecting"))
+                    .filter(e -> e.getId().getPath().equals("factory_platex_connecting"))
                     .findFirst().get().get(), new Item.Properties()));
 
     public static final RegistryObject<Item> FACTORY_WIREFRAME = ITEMS.register("factory_wireframe",
@@ -352,14 +352,14 @@ public class ModItems {
             () -> new BlockItem(ModBlocks.FACTORY_YELLOW_BLACK_CAUTION_STRIPES.get(), new Item.Properties()));
     public static final RegistryObject<Item> FACTORY_HAZARD_CONNECTING = ITEMS.register("factory_hazard_connecting",
             () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
-                    .filter(e -> e.getId().getPath().equals("factory_yellow_black_caution_stripes_connecting"))
+                    .filter(e -> e.getId().getPath().equals("factory_hazard_connecting"))
                     .findFirst().get().get(), new Item.Properties()));
 
     public static final RegistryObject<Item> FACTORY_HAZARDORANGE = ITEMS.register("factory_hazardorange",
             () -> new BlockItem(ModBlocks.FACTORY_ORANGE_WHITE_CAUTION_STRIPES.get(), new Item.Properties()));
     public static final RegistryObject<Item> FACTORY_HAZARDORANGE_CONNECTING = ITEMS.register("factory_hazardorange_connecting",
             () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
-                    .filter(e -> e.getId().getPath().equals("factory_orange_white_caution_stripes_connecting"))
+                    .filter(e -> e.getId().getPath().equals("factory_hazardorange_connecting"))
                     .findFirst().get().get(), new Item.Properties()));
 
     public static final RegistryObject<Item> FACTORY_CIRCUIT = ITEMS.register("factory_circuit",
@@ -375,14 +375,14 @@ public class ModItems {
             () -> new BlockItem(ModBlocks.FACTORY_GOLD_PLATED_CIRCUIT.get(), new Item.Properties()));
     public static final RegistryObject<Item> FACTORY_GOLDPLATE_CONNECTING = ITEMS.register("factory_goldplate_connecting",
             () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
-                    .filter(e -> e.getId().getPath().equals("factory_gold_plated_circuit_connecting"))
+                    .filter(e -> e.getId().getPath().equals("factory_goldplate_connecting"))
                     .findFirst().get().get(), new Item.Properties()));
 
     public static final RegistryObject<Item> FACTORY_GOLDPLATING = ITEMS.register("factory_goldplating",
             () -> new BlockItem(ModBlocks.FACTORY_GOLD_FRAMED_PURPLE_PLATES.get(), new Item.Properties()));
     public static final RegistryObject<Item> FACTORY_GOLDPLATING_CONNECTING = ITEMS.register("factory_goldplating_connecting",
             () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
-                    .filter(e -> e.getId().getPath().equals("factory_gold_framed_purple_plates_connecting"))
+                    .filter(e -> e.getId().getPath().equals("factory_goldplating_connecting"))
                     .findFirst().get().get(), new Item.Properties()));
 
     public static final RegistryObject<Item> FACTORY_GRINDER = ITEMS.register("factory_grinder",
@@ -399,42 +399,42 @@ public class ModItems {
             () -> new BlockItem(ModBlocks.FACTORY_SEGMENTED_RUSTY_PLATES.get(), new Item.Properties()));
     public static final RegistryObject<Item> FACTORY_RUSTPLATES_CONNECTING = ITEMS.register("factory_rustplates_connecting",
             () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
-                    .filter(e -> e.getId().getPath().equals("factory_segmented_rusty_plates_connecting"))
+                    .filter(e -> e.getId().getPath().equals("factory_rustplates_connecting"))
                     .findFirst().get().get(), new Item.Properties()));
 
     public static final RegistryObject<Item> FACTORY_COLUMN = ITEMS.register("factory_column",
             () -> new BlockItem(ModBlocks.FACTORY_METAL_COLUMN.get(), new Item.Properties()));
     public static final RegistryObject<Item> FACTORY_COLUMN_CONNECTING = ITEMS.register("factory_column_connecting",
             () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
-                    .filter(e -> e.getId().getPath().equals("factory_metal_column_connecting"))
+                    .filter(e -> e.getId().getPath().equals("factory_column_connecting"))
                     .findFirst().get().get(), new Item.Properties()));
 
     public static final RegistryObject<Item> FACTORY_FRAMEBLUE = ITEMS.register("factory_frameblue",
             () -> new BlockItem(ModBlocks.FACTORY_BLUE_FRAMED_CIRCUIT.get(), new Item.Properties()));
     public static final RegistryObject<Item> FACTORY_FRAMEBLUE_CONNECTING = ITEMS.register("factory_frameblue_connecting",
             () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
-                    .filter(e -> e.getId().getPath().equals("factory_blue_framed_circuit_connecting"))
+                    .filter(e -> e.getId().getPath().equals("factory_frameblue_connecting"))
                     .findFirst().get().get(), new Item.Properties()));
 
     public static final RegistryObject<Item> FACTORY_ICEICEICE = ITEMS.register("factory_iceiceice",
             () -> new BlockItem(ModBlocks.FACTORY_ICE_ICE_ICE.get(), new Item.Properties()));
     public static final RegistryObject<Item> FACTORY_ICEICEICE_CONNECTING = ITEMS.register("factory_iceiceice_connecting",
             () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
-                    .filter(e -> e.getId().getPath().equals("factory_ice_ice_ice_connecting"))
+                    .filter(e -> e.getId().getPath().equals("factory_iceiceice_connecting"))
                     .findFirst().get().get(), new Item.Properties()));
 
     public static final RegistryObject<Item> FACTORY_TILEMOSAIC = ITEMS.register("factory_tilemosaic",
             () -> new BlockItem(ModBlocks.FACTORY_BLUE_CIRCUITS.get(), new Item.Properties()));
     public static final RegistryObject<Item> FACTORY_TILEMOSAIC_CONNECTING = ITEMS.register("factory_tilemosaic_connecting",
             () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
-                    .filter(e -> e.getId().getPath().equals("factory_blue_circuits_connecting"))
+                    .filter(e -> e.getId().getPath().equals("factory_tilemosaic_connecting"))
                     .findFirst().get().get(), new Item.Properties()));
 
     public static final RegistryObject<Item> FACTORY_VENT = ITEMS.register("factory_vent",
             () -> new BlockItem(ModBlocks.FACTORY_VENTS.get(), new Item.Properties()));
     public static final RegistryObject<Item> FACTORY_VENT_CONNECTING = ITEMS.register("factory_vent_connecting",
             () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
-                    .filter(e -> e.getId().getPath().equals("factory_vents_connecting"))
+                    .filter(e -> e.getId().getPath().equals("factory_vent_connecting"))
                     .findFirst().get().get(), new Item.Properties()));
 
     public static final RegistryObject<Item> FACTORY_BLUE_WIREFRAME = ITEMS.register("factory_blue_wireframe",
