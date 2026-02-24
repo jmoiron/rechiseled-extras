@@ -20,6 +20,11 @@ public class ModBlocks {
             .strength(2.0f, 10.0f)
             .requiresCorrectToolForDrops()
             .sound(SoundType.STONE);
+    private static final BlockBehaviour.Properties DECORATIVE_BLOCK_CUTOUT = BlockBehaviour.Properties.of()
+            .strength(2.0f, 10.0f)
+            .requiresCorrectToolForDrops()
+            .sound(SoundType.STONE)
+            .noOcclusion();
 
     // Valentines blocks
     public static final RegistryObject<Block> VALENTINES_PINK_MARKER = simpleBlock("valentines_pink_marker", DECORATIVE_BLOCK);
@@ -172,9 +177,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> TECHNICAL_GRATE = connecting("technical_grate", DECORATIVE_BLOCK);
     public static final RegistryObject<Block> TECHNICAL_FAN_MALFUNCTIONING = simpleBlock("technical_fan_malfunctioning", DECORATIVE_BLOCK);
     public static final RegistryObject<Block> TECHNICAL_RUSTY_GRATE = connecting("technical_rusty_grate", DECORATIVE_BLOCK);
-    public static final RegistryObject<Block> TECHNICAL_RUSTY_SCAFFOLD_TRANSPARENT = connecting("technical_rusty_scaffold_transparent", DECORATIVE_BLOCK);
-    public static final RegistryObject<Block> TECHNICAL_FAN_FAST_TRANSPARENT = simpleBlock("technical_fan_fast_transparent", DECORATIVE_BLOCK);
-    public static final RegistryObject<Block> TECHNICAL_FAN_STILL_TRANSPARENT = simpleBlock("technical_fan_still_transparent", DECORATIVE_BLOCK);
+    public static final RegistryObject<Block> TECHNICAL_RUSTY_SCAFFOLD_TRANSPARENT = connecting("technical_rusty_scaffold_transparent", DECORATIVE_BLOCK_CUTOUT);
+    public static final RegistryObject<Block> TECHNICAL_FAN_FAST_TRANSPARENT = simpleBlock("technical_fan_fast_transparent", DECORATIVE_BLOCK_CUTOUT);
+    public static final RegistryObject<Block> TECHNICAL_FAN_STILL_TRANSPARENT = simpleBlock("technical_fan_still_transparent", DECORATIVE_BLOCK_CUTOUT);
     // [massive fan - not yet implemented]
     // [massive hexagonal plating - not yet implemented]
     public static final RegistryObject<Block> TECHNICAL_WEATHERED_GREEN_PANELS = simpleBlock("technical_weathered_green_panels", DECORATIVE_BLOCK);

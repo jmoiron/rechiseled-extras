@@ -1,4 +1,5 @@
 {
+  "render_type": "minecraft:cutout",
   "type": "fusion:connecting",
   "parent": "minecraft:block/cube_all",
   "connections": [
