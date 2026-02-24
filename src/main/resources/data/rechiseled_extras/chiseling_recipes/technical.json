@@ -26,6 +26,7 @@
     { "item": "rechiseled_extras:technical_megacell" },
     { "connecting_item": "rechiseled_extras:technical_exhaust_plating_connecting", "item": "rechiseled_extras:technical_exhaust_plating" },
     { "connecting_item": "rechiseled_extras:technical_large_rusty_scaffold_connecting", "item": "rechiseled_extras:technical_large_rusty_scaffold" },
+    { "item": "rechiseled_extras:technical_pipes" },
     { "item": "rechiseled_extras:technical_wires" },
     { "item": "rechiseled_extras:technical_old" }
   ],

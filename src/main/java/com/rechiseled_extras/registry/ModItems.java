@@ -593,6 +593,8 @@ public class ModItems {
             () -> new ConnectingBlockItem(ModBlocks.BLOCKS.getEntries().stream()
                     .filter(e -> e.getId().getPath().equals("technical_large_rusty_scaffold_connecting"))
                     .findFirst().get().get(), new Item.Properties()));
+    public static final RegistryObject<Item> TECHNICAL_PIPES = ITEMS.register("technical_pipes",
+            () -> new BlockItem(ModBlocks.TECHNICAL_PIPES.get(), new Item.Properties()));
     public static final RegistryObject<Item> TECHNICAL_FAN_MALFUNCTIONING = ITEMS.register("technical_fan_malfunctioning",
             () -> new BlockItem(ModBlocks.TECHNICAL_FAN_MALFUNCTIONING.get(), new Item.Properties()));
     // Additional simple technical items
