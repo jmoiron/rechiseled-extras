@@ -2,6 +2,7 @@ modLoader="javafml"
 loaderVersion="${loader_version_range}"
 license="${mod_license}"
 issueTrackerURL="https://github.com/chisel-extras/chisel-classic-extras/issues"
+logoFile="icon-64.png"
 
 [[mods]]
 modId="${mod_id}"
