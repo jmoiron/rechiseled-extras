@@ -1,4 +1,5 @@
 # ReChiseled Extras
+![](assets/icon.png)
 
 ReChiseled Extras is a forge 1.20.1 addon mod for ReChiseled.
 
@@ -32,3 +33,6 @@ files in the following directories are distributed under GPLv2 as they are eithe
   * `src/main/resources/assets/rechiseled_extras/textures`
 
 Many of these images are converted from 1.12's CTM mod to Fusion, so they are derived works that retain the GPL licensing.
+
+The rechiseled icon in `assets/` is reused with permission. For the purpose of derivations it should be considered as
+available here under its original license.
