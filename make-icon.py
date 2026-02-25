@@ -7,7 +7,7 @@ Produces a 400×400 PNG:
   - 40 px transparent border on all sides
   - 5×5 grid (320×320) of randomly-selected 16×16 block textures, each
     upscaled to 64×64 with nearest-neighbor interpolation
-  - iron_chisel.png upscaled to 300×300 (nearest-neighbor), alpha-
+  - rechiseled-icon.png upscaled to 300×300 (nearest-neighbor), alpha-
     composited at center
 
 Usage:
@@ -16,7 +16,7 @@ Usage:
 Options:
     -o / --output   Output file path (default: icon.png)
     --seed          Integer seed for reproducible tile selection
-    --chisel        Path to iron_chisel.png (default: Chisel source tree)
+    --chisel        Path to rechiseled-icon.png (default: assets/rechiseled-icon.png)
 
 This script requires Pillow (PIL): pip install Pillow
 """
@@ -108,7 +108,7 @@ def main(argv: List[str]) -> int:
     parser = argparse.ArgumentParser(description="Generate rechiseled-extras CurseForge icon")
     parser.add_argument("-o", "--output", default="icon.png", help="Output file (default: icon.png)")
     parser.add_argument("--seed", type=int, default=None, help="Random seed for reproducible tile selection")
-    parser.add_argument("--chisel", default=str(DEFAULT_CHISEL), help="Path to iron_chisel.png")
+    parser.add_argument("--chisel", default=str(DEFAULT_CHISEL), help="Path to rechiseled-icon.png")
     args = parser.parse_args(argv)
 
     chisel_path = Path(args.chisel)
