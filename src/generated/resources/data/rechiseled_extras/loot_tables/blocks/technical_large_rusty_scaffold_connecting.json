@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "rechiseled_extras:factory_purple_wireframe"
+          "name": "rechiseled_extras:technical_large_rusty_scaffold_connecting"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "rechiseled_extras:blocks/factory_purple_wireframe"
+  "random_sequence": "rechiseled_extras:blocks/technical_large_rusty_scaffold_connecting"
 }

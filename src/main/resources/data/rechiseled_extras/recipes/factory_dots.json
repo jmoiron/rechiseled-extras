@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI",
+    "S S",
+    "ISI"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:stone"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "result": {
+    "item": "rechiseled_extras:factory_dots",
+    "count": 32
+  }
+}

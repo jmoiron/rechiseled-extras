@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "rechiseled_extras:factory_purple_wireframe"
+          "name": "rechiseled_extras:factory_rustplates_connecting"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "rechiseled_extras:blocks/factory_purple_wireframe"
+  "random_sequence": "rechiseled_extras:blocks/factory_rustplates_connecting"
 }
