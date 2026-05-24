@@ -2,19 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "SSS",
-    "SIS",
+    "SQS",
     "SSS"
   ],
   "key": {
     "S": {
       "tag": "forge:stone"
     },
-    "I": {
-      "tag": "forge:ingots/iron"
+    "Q": {
+      "item": "minecraft:quartz"
     }
   },
   "result": {
-    "item": "rechiseled_extras:tyrian_disordered_metal_bits",
-    "count": 32
+    "item": "rechiseled_extras:laboratory_white_panel",
+    "count": 8
   }
 }

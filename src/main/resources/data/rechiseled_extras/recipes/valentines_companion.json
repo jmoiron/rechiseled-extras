@@ -2,19 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "SSS",
-    "SIS",
+    "SWS",
     "SSS"
   ],
   "key": {
     "S": {
       "tag": "forge:stone"
     },
-    "I": {
-      "tag": "forge:ingots/iron"
+    "W": {
+      "item": "minecraft:wither_skeleton_skull"
     }
   },
   "result": {
-    "item": "rechiseled_extras:tyrian_disordered_metal_bits",
+    "item": "rechiseled_extras:valentines_companion",
     "count": 32
   }
 }

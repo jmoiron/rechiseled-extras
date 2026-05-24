@@ -157,6 +157,10 @@ public class ModLootTableProvider extends LootTableProvider {
             dropSelf(ModBlocks.TECHNICAL_WIRES.get());
             dropSelf(ModBlocks.TECHNICAL_OLD.get());
             dropSelf(ModBlocks.TECHNICAL_MEGACELL.get());
+            dropSelf(ModBlocks.TECHNICAL_WEATHERED_GREEN_PANELS.get());
+            dropSelf(ModBlocks.TECHNICAL_WEATHERED_ORANGE_PANELS.get());
+            dropSelf(ModBlocks.TECHNICAL_LARGE_RUSTY_SCAFFOLD.get());
+            dropSelf(ModBlocks.TECHNICAL_PIPES.get());
 
             // Technical (factory/technical) - CTM-only blocks (regular variants)
             dropSelf(ModBlocks.TECHNICAL_CABLES.get());

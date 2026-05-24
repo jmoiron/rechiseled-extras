@@ -2,19 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "SSS",
-    "SIS",
+    "SPS",
     "SSS"
   ],
   "key": {
     "S": {
       "tag": "forge:stone"
     },
-    "I": {
-      "tag": "forge:ingots/iron"
+    "P": {
+      "item": "minecraft:pink_dye"
     }
   },
   "result": {
-    "item": "rechiseled_extras:tyrian_disordered_metal_bits",
-    "count": 32
+    "item": "rechiseled_extras:valentines_pink_marker",
+    "count": 8
   }
 }

@@ -2,19 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "SSS",
-    "SPS",
+    "SRS",
     "SSS"
   ],
   "key": {
     "S": {
       "tag": "forge:stone"
     },
-    "P": {
-      "item": "minecraft:pink_dye"
+    "R": {
+      "tag": "forge:dusts/redstone"
     }
   },
   "result": {
-    "item": "rechiseled_extras:valentines_1",
+    "item": "rechiseled_extras:futura_screen_gray",
     "count": 8
   }
 }
