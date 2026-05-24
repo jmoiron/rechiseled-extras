@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "rechiseled_extras:factory_hazardorange_connecting"
+          "name": "rechiseled_extras:technical_pipes"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "rechiseled_extras:blocks/factory_orange_white_caution_stripes_connecting"
+  "random_sequence": "rechiseled_extras:blocks/technical_pipes"
 }

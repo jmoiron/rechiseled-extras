@@ -1,6 +1,6 @@
 .PHONY: all build clean runClient runServer data install
 
-PACK_INSTANCE := quantum-skies-0.7.6
+PACK_INSTANCE := quantum-skies-0.8.1
 PRISMLAUNCHER_INSTANCE := PrismLauncher/instances/${PACK_INSTANCE}/minecraft/
 
 LINUX_INSTALL := ${HOME}/.local/share/${PRISMLAUNCHER_INSTANCE}

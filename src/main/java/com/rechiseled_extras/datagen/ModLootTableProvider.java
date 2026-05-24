@@ -177,8 +177,12 @@ public class ModLootTableProvider extends LootTableProvider {
             dropSelf(ModBlocks.TECHNICAL_FAN_STILL_TRANSPARENT.get());
             dropSelf(ModBlocks.TECHNICAL_FAN_MALFUNCTIONING.get());
             dropSelf(ModBlocks.TECHNICAL_GEARS_AND_FLYWHEELS.get());
+            dropSelf(ModBlocks.TECHNICAL_WEATHERED_GREEN_PANELS.get());
+            dropSelf(ModBlocks.TECHNICAL_WEATHERED_ORANGE_PANELS.get());
             dropSelf(ModBlocks.TECHNICAL_STURDY.get());
             dropSelf(ModBlocks.TECHNICAL_EXHAUST_PLATING.get());
+            dropSelf(ModBlocks.TECHNICAL_LARGE_RUSTY_SCAFFOLD.get());
+            dropSelf(ModBlocks.TECHNICAL_PIPES.get());
         }
 
         /**

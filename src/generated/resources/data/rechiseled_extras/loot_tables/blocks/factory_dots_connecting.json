@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "rechiseled_extras:factory_goldplate"
+          "name": "rechiseled_extras:factory_dots_connecting"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "rechiseled_extras:blocks/factory_gold_plated_circuit"
+  "random_sequence": "rechiseled_extras:blocks/factory_dots_connecting"
 }

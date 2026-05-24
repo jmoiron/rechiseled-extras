@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "rechiseled_extras:factory_rustplates"
+          "name": "rechiseled_extras:factory_hazardorange_connecting"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "rechiseled_extras:blocks/factory_segmented_rusty_plates"
+  "random_sequence": "rechiseled_extras:blocks/factory_hazardorange_connecting"
 }

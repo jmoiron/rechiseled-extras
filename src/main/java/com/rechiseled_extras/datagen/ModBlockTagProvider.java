@@ -4,7 +4,10 @@ import com.rechiseled_extras.RechiseledExtras;
 import com.rechiseled_extras.registry.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
+import net.minecraft.data.tags.TagsProvider;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -62,6 +65,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
             ModBlocks.TYRIAN_OPENING.get(),
             ModBlocks.TYRIAN_SHINY_PLATE.get()
         );
+        addOptionalBlocks(pickaxeTag, "tyrian_shiny_plate_connecting");
 
         // Voidstone blocks - simple variants
         pickaxeTag.add(
@@ -127,6 +131,18 @@ public class ModBlockTagProvider extends BlockTagsProvider {
             ModBlocks.LABORATORY_WHITE_PANEL_WALL_CONNECTING.get(),
             ModBlocks.LABORATORY_VENTS.get()
         );
+        addOptionalBlocks(pickaxeTag,
+                "laboratory_screen_connecting",
+                "laboratory_fuzzy_screen_connecting",
+                "laboratory_tile_connecting",
+                "laboratory_roundel_connecting",
+                "laboratory_left_faced_arrows_connecting",
+                "laboratory_right_faced_arrows_connecting",
+                "laboratory_dotted_panel_connecting",
+                "laboratory_console_connecting",
+                "laboratory_white_panel_connecting",
+                "laboratory_vents_connecting"
+        );
 
         // Voidstone CTM variants
         pickaxeTag.add(
@@ -134,6 +150,12 @@ public class ModBlockTagProvider extends BlockTagsProvider {
             ModBlocks.VOIDSTONE_METALLIC.get(),
             ModBlocks.VOIDSTONE_PRIMAL_DENT.get(),
             ModBlocks.VOIDSTONE_PRIMAL_METALLIC.get()
+        );
+        addOptionalBlocks(pickaxeTag,
+                "voidstone_dent_connecting",
+                "voidstone_metallic_connecting",
+                "voidstone_primal_dent_connecting",
+                "voidstone_primal_metallic_connecting"
         );
 
         // Factory blocks - simple variant
@@ -160,6 +182,27 @@ public class ModBlockTagProvider extends BlockTagsProvider {
             ModBlocks.FACTORY_BLUE_CIRCUITS.get(),
             ModBlocks.FACTORY_VENTS.get(),
             ModBlocks.FACTORY_BLUE_WIREFRAME.get()
+        );
+        addOptionalBlocks(pickaxeTag,
+                "factory_dots_connecting",
+                "factory_rust2_connecting",
+                "factory_rust_connecting",
+                "factory_platex_connecting",
+                "factory_wireframe_connecting",
+                "factory_purple_wireframe_connecting",
+                "factory_hazard_connecting",
+                "factory_hazardorange_connecting",
+                "factory_circuit_connecting",
+                "factory_goldplate_connecting",
+                "factory_goldplating_connecting",
+                "factory_grinder_connecting",
+                "factory_rustplates_connecting",
+                "factory_column_connecting",
+                "factory_frameblue_connecting",
+                "factory_iceiceice_connecting",
+                "factory_tilemosaic_connecting",
+                "factory_vent_connecting",
+                "factory_blue_wireframe_connecting"
         );
 
         // Technical (factory/technical) blocks - simple and CTM variants
@@ -189,6 +232,23 @@ public class ModBlockTagProvider extends BlockTagsProvider {
             ModBlocks.TECHNICAL_STURDY.get(),
             ModBlocks.TECHNICAL_EXHAUST_PLATING.get()
         );
+        addOptionalBlocks(pickaxeTag,
+                "technical_rusty_scaffold_connecting",
+                "technical_caution_framed_plates_connecting",
+                "technical_large_pipes_connecting",
+                "technical_small_pipes_connecting",
+                "technical_vent_connecting",
+                "technical_glowing_vent_connecting",
+                "technical_insulation_connecting",
+                "technical_gears_and_flywheels_connecting",
+                "technical_cables_connecting",
+                "technical_grate_connecting",
+                "technical_rusty_grate_connecting",
+                "technical_rusty_scaffold_transparent_connecting",
+                "technical_sturdy_connecting",
+                "technical_exhaust_plating_connecting",
+                "technical_large_rusty_scaffold_connecting"
+        );
 
         // Futura blocks
         pickaxeTag.add(
@@ -198,6 +258,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
             ModBlocks.FUTURA_SCREEN_GRAY.get(),
             ModBlocks.FUTURA_RAINBOWLICIOUSLY_WAVY.get(),
             ModBlocks.FUTURA_FABULOUSLY_WAVY.get()
+        );
+        addOptionalBlocks(pickaxeTag,
+                "futura_controller_connecting",
+                "futura_controller_purple_connecting",
+                "futura_screen_cyan_connecting",
+                "futura_screen_gray_connecting",
+                "futura_fabulously_wavy_connecting"
         );
     }
 
@@ -240,6 +307,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
             ModBlocks.TYRIAN_OPENING.get(),
             ModBlocks.TYRIAN_SHINY_PLATE.get()
         );
+        addOptionalBlocks(stoneTag, "tyrian_shiny_plate_connecting");
 
         // Voidstone blocks - simple variants
         stoneTag.add(
@@ -305,6 +373,18 @@ public class ModBlockTagProvider extends BlockTagsProvider {
             ModBlocks.LABORATORY_WHITE_PANEL_WALL_CONNECTING.get(),
             ModBlocks.LABORATORY_VENTS.get()
         );
+        addOptionalBlocks(stoneTag,
+                "laboratory_screen_connecting",
+                "laboratory_fuzzy_screen_connecting",
+                "laboratory_tile_connecting",
+                "laboratory_roundel_connecting",
+                "laboratory_left_faced_arrows_connecting",
+                "laboratory_right_faced_arrows_connecting",
+                "laboratory_dotted_panel_connecting",
+                "laboratory_console_connecting",
+                "laboratory_white_panel_connecting",
+                "laboratory_vents_connecting"
+        );
 
         // Voidstone CTM variants
         stoneTag.add(
@@ -312,6 +392,12 @@ public class ModBlockTagProvider extends BlockTagsProvider {
             ModBlocks.VOIDSTONE_METALLIC.get(),
             ModBlocks.VOIDSTONE_PRIMAL_DENT.get(),
             ModBlocks.VOIDSTONE_PRIMAL_METALLIC.get()
+        );
+        addOptionalBlocks(stoneTag,
+                "voidstone_dent_connecting",
+                "voidstone_metallic_connecting",
+                "voidstone_primal_dent_connecting",
+                "voidstone_primal_metallic_connecting"
         );
 
         // Factory blocks - simple variant
@@ -339,6 +425,27 @@ public class ModBlockTagProvider extends BlockTagsProvider {
             ModBlocks.FACTORY_VENTS.get(),
             ModBlocks.FACTORY_BLUE_WIREFRAME.get()
         );
+        addOptionalBlocks(stoneTag,
+                "factory_dots_connecting",
+                "factory_rust2_connecting",
+                "factory_rust_connecting",
+                "factory_platex_connecting",
+                "factory_wireframe_connecting",
+                "factory_purple_wireframe_connecting",
+                "factory_hazard_connecting",
+                "factory_hazardorange_connecting",
+                "factory_circuit_connecting",
+                "factory_goldplate_connecting",
+                "factory_goldplating_connecting",
+                "factory_grinder_connecting",
+                "factory_rustplates_connecting",
+                "factory_column_connecting",
+                "factory_frameblue_connecting",
+                "factory_iceiceice_connecting",
+                "factory_tilemosaic_connecting",
+                "factory_vent_connecting",
+                "factory_blue_wireframe_connecting"
+        );
 
         // Futura blocks
         stoneTag.add(
@@ -348,6 +455,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
             ModBlocks.FUTURA_SCREEN_GRAY.get(),
             ModBlocks.FUTURA_RAINBOWLICIOUSLY_WAVY.get(),
             ModBlocks.FUTURA_FABULOUSLY_WAVY.get()
+        );
+        addOptionalBlocks(stoneTag,
+                "futura_controller_connecting",
+                "futura_controller_purple_connecting",
+                "futura_screen_cyan_connecting",
+                "futura_screen_gray_connecting",
+                "futura_fabulously_wavy_connecting"
         );
 
         // Technical (factory/technical) blocks - simple and CTM variants
@@ -377,5 +491,28 @@ public class ModBlockTagProvider extends BlockTagsProvider {
             ModBlocks.TECHNICAL_STURDY.get(),
             ModBlocks.TECHNICAL_EXHAUST_PLATING.get()
         );
+        addOptionalBlocks(stoneTag,
+                "technical_rusty_scaffold_connecting",
+                "technical_caution_framed_plates_connecting",
+                "technical_large_pipes_connecting",
+                "technical_small_pipes_connecting",
+                "technical_vent_connecting",
+                "technical_glowing_vent_connecting",
+                "technical_insulation_connecting",
+                "technical_gears_and_flywheels_connecting",
+                "technical_cables_connecting",
+                "technical_grate_connecting",
+                "technical_rusty_grate_connecting",
+                "technical_rusty_scaffold_transparent_connecting",
+                "technical_sturdy_connecting",
+                "technical_exhaust_plating_connecting",
+                "technical_large_rusty_scaffold_connecting"
+        );
+    }
+
+    private void addOptionalBlocks(TagsProvider.TagAppender<Block> tagAppender, String... blockIds) {
+        for (String blockId : blockIds) {
+            tagAppender.addOptional(new ResourceLocation(RechiseledExtras.MOD_ID, blockId));
+        }
     }
 }
